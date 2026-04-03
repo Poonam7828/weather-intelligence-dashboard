@@ -124,7 +124,8 @@ Weather-Dashboard/
 
 ## 📷 Preview
 
-_Add your dashboard screenshot here_
+<img width="1284" height="713" alt="Screenshot 2026-04-03 220647" src="https://github.com/user-attachments/assets/d6697275-9fa2-42eb-aac7-128baa8bbe84" />
+
 
 ---
 
