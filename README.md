@@ -1,8 +1,6 @@
 🌦️ Weather Analytics Dashboard (Power BI)
 
-A modern, interactive Weather Analytics Dashboard built using Power BI, powered by real-time data from a weather API and transformed into a structured dataset (masterReport.csv).
-
-This project focuses on data analysis + UI/UX design, delivering actionable weather insights through a clean, visually rich dashboard.
+A modern, interactive Weather Analytics Dashboard built using Power BI, powered by real-time weather API data and transformed into a structured dataset (masterReport.csv).
 
 📌 Overview
 
@@ -15,68 +13,70 @@ Air quality metrics
 Rain probability analysis
 Key environmental indicators
 
-The data pipeline involves API extraction → transformation → modeling → visualization → CSV export.
+The project follows a complete pipeline:
+API → Data Transformation → Data Modeling → Visualization → CSV Export
 
 🚀 Features
 Real-time weather data integration (API-based)
-Interactive and responsive dashboard
-Multi-location comparison (e.g., Mumbai, Pune, Shimla)
+Interactive and visually rich dashboard
+Multi-location comparison (Mumbai, Pune, Shimla)
 Forecast trend visualization (line chart)
-Air Quality Index (AQI) breakdown (PM10, CO, NO2, SO2, O3)
-Rain probability visualization
-Sunrise & sunset tracking
-Clean dark-themed UI with modern design principles
+Air Quality Index (PM10, CO, NO2, SO2, O3)
+Rain probability tracking
+Sunrise & sunset insights
+Clean dark-themed modern UI
 🛠️ Tech Stack
-Power BI Desktop – Data visualization
+Power BI Desktop – Visualization
 Weather API – Data source
 Power Query – Data transformation
-DAX – Calculations & measures
-CSV (masterReport.csv) – Structured dataset
+DAX – Measures & calculations
+CSV (masterReport.csv) – Dataset
 📂 Dataset
-Name: masterReport.csv
-Source: Weather API (converted from JSON to CSV)
-Contents:
+File Name: masterReport.csv
+Source: Weather API (converted from JSON)
+
+Includes:
+
 Location details
 Current weather metrics
-Hourly & daily forecast
-Air quality indicators
+Forecast (hourly & daily)
+Air quality data
 🔄 Workflow
 1. Data Collection
 Extracted weather data using API (JSON format)
 2. Data Transformation
 Flattened nested JSON using Power Query
-Cleaned and formatted columns
-Handled missing values and datatypes
+Cleaned and structured columns
+Handled missing values
 3. Data Modeling
-Built relationships between datasets
-Created calculated measures using DAX
+Created relationships between tables
+Built calculated measures using DAX
 4. Dashboard Development
 Designed UI-focused dashboard with:
 KPI cards
-Line charts
-Progress indicators
+Charts & graphs
 Comparative visuals
 5. Data Export
-Converted API data into reusable CSV (masterReport.csv)
-Used for GitHub integration and project portability
+Converted API data into CSV (masterReport.csv)
+Enabled reuse and GitHub integration
 📊 Dashboard Components
 Current Weather Panel – Temperature & condition
-Forecast Chart – Trend over days
+Forecast Chart – Temperature trends
 Air Quality Section – Pollution metrics
-Weather Metrics Cards – Humidity, Wind, Pressure, Visibility
-Rain Probability – Daily chances
+Weather Cards – Humidity, Wind, Pressure, Visibility
+Rain Probability – Daily analysis
 Sunrise & Sunset – Time indicators
 💡 Key Learnings
-Integrating APIs with Power BI
-Transforming complex JSON data
-Data modeling and DAX calculations
-Designing user-friendly dashboards
-Converting dynamic data into static datasets
+API integration in Power BI
+Handling complex JSON data
+Data modeling using DAX
+Dashboard UI/UX design
+Converting API data into CSV
 🔮 Future Enhancements
-Automate API to CSV pipeline
-Add dynamic location selection
-Deploy dashboard to web
-Integrate predictive analytics (ML models)
+Automate API → CSV pipeline
+Add dynamic location filters
+Deploy dashboard online
+Integrate ML-based predictions
 📁 Project Structure
 Weather-Dashboard/
 │── dataset/
@@ -86,10 +86,8 @@ Weather-Dashboard/
 │── README.md
 📷 Preview
 
-
-
-
+Add your dashboard screenshot here
 
 ⭐ Acknowledgment
 
-Inspired by a Weather API + Power BI implementation, extended with custom dataset handling and UI enhancements.
+Inspired by a Weather API + Power BI implementation, enhanced with custom dataset and UI design.
