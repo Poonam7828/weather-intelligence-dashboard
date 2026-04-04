@@ -1,4 +1,4 @@
-# 🌦️ Weather Analytics Dashboard (Power BI)
+# 🌦️ Weather Intelligence Dashboard (Power BI)
 
 A modern, interactive **Weather Analytics Dashboard** built using **Power BI**, powered by real-time weather API data and transformed into a structured dataset (`masterReport.csv`).
 
